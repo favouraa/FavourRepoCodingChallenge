@@ -12,7 +12,6 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			VBox root= new VBox();
-			root.getChildren().add(new Label("Favour's label"));
 			root.getChildren().add(new Label("Favour's branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
